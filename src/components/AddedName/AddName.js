@@ -4,10 +4,12 @@ import { faUser } from '@fortawesome/free-solid-svg-icons'
 import './AddName.css'
 
 const AddName = (props) => {
+    // total cost
     let totalCost = 0;
     for (let singlePerson of props.added) {
         totalCost = totalCost + singlePerson.price
     }
+    // added name
     const personName = []
     for (let person of props.added) {
         if (!personName.includes(person.name)) {

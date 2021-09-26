@@ -4,6 +4,7 @@ import { faUserPlus, faDollarSign } from '@fortawesome/free-solid-svg-icons'
 import './Artist.css'
 
 const Artist = (props) => {
+    // destructuring
     const { name, img, bio, date, institue, price } = props.artist
     return (
         <div>
