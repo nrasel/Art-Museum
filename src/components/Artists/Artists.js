@@ -4,19 +4,23 @@ import Artist from '../Artist/Artist';
 import './Artists.css'
 
 const Artists = () => {
+    // data load state
     const [artists, setArtists] = useState([])
+    // person add state
     const [added, setAdded] = useState([])
+
     useEffect(() => {
         fetch('./artist.json')
             .then(res => res.json())
             .then(data => setArtists(data))
     }, [])
 
+    // Add AddName handle function
+
     const handleAddToAddName = (person) => {
         const newPerson = [...added, person]
         setAdded(newPerson)
     }
-
     return (
         <div>
             <div className="artists-and-cart-container">

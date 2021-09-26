@@ -1,11 +1,12 @@
 .header-item{
     text-align: center;
-    background-color: #e2d7d1;
-    padding: 5px;
+    background-color: rgb(253, 240, 240);
+    padding: 15px 5px;
     line-height: 15px;
 }
 .header-item h1{
     color: rgb(63, 62, 62);
+    font-weight: 500;
 }
 .header-item p{
     color: rgb(70, 68, 68);
