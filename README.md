@@ -4,10 +4,10 @@ My Website Link  [Artist-Museum-Assignment](https://artist-museum-assignment-dev
 
 ## Available Feature
 
-Markup : * This Website Art Museum with World Best Artists
-              * This website can be seen total person total cost
-                  * This website can be seen artist bio
-          * Bullet list item 
+### .This Website Art Museum with World Best Artists
+### .This website can be seen total person total cost
+### .This website can be seen artist bio
+          
 
 
 
