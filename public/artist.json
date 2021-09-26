@@ -5,7 +5,7 @@
         "shortname": "Pablo Picasso",
         "institue": "the School of Fine Arts in Barcelona",
         "bio": "Pablo Picasso was a Spanish painter, sculptor, printmaker, ceramicist and stage designer considered one of the greatest and most influential artists of the 20th century. Picasso is credited, along with Georges Braque, with the creation of Cubism.",
-        "salary": 45000,
+        "price": 450000,
         "date": "October 25, 1881",
         "img": "https://dynaimage.cdn.cnn.com/cnn/q_auto,w_727,c_fit/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F151207113238-pablo-picasso-color.jpg"
     },
@@ -14,8 +14,9 @@
         "name": "Vincent Willem van Gogh",
         "shortname": "Vincent van Gogh",
         "institue": "Royal Academy of Fine Arts",
-        "bio": "Vincent Van Gogh was born on 30 March 1853 in Zundert in the southern Netherlands, the son of a pastor. In 1869, he took his first job, working in the Hague branch of an international art dealing firm. ... In 1888, Van Gogh moved to Provence in southern France, where he painted his famous series 'Sunflowers'.",
-        "salary": 20000,
+        "bio": "Vincent Van Gogh was born on 30 March 1853 in Zundert in the southern Netherlands, the son of a pastor. In 1869, he took his first job, working in the Hague branch of an international art dealing firm. In 1888, Van Gogh moved to Provence in southern France, where he painted his famous series 'Sunflowers'.",
+        "price": 230000,
+        "date": "March 30, 1853",
         "img": "https://www.vincentvangogh.org/images/van-gogh.jpg"
     },
     {
@@ -24,25 +25,28 @@
         "shortname": "Leonardo da",
         "institue": "Studio of Andrea del Verrocchio",
         "bio": "Leonardo da Vinci was an Italian polymath of the High Renaissance who was active as a painter, draughtsman, engineer, scientist, theorist, sculptor and architect",
-        "salary": 40000,
-        "img": "https://biographywiki.net/wp-content/uploads/Leonardo-da-Vinci-Biography-Wiki.jpg"
+        "price": 440000,
+        "date": "April 15, 1452",
+        "img": "https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photo/2656313/image/592c9c0505313a0c5b8420968e9ccc94"
     },
     {
         "id": "53026",
-        "name": "Michelangelo di Lodovico Buonarroti Simoni",
+        "name": "Michelangelo di Lodovico Buonarroti",
         "shortname": "Michelangelo",
         "institue": "Michelangelo Institute of Florence",
         "bio": "Michelangelo di Lodovico Buonarroti Simoni, known simply as Michelangelo, was an Italian sculptor, painter, architect and poet of the High Renaissance born in the Republic of Florence, who exerted an unparalleled influence on the development of Western art.",
-        "salary": 70000,
+        "price": 710000,
+        "date": "March 6, 1475",
         "img": "https://cdn.britannica.com/46/75046-050-0973B0E8/Michelangelo.jpg"
     },
     {
         "id": "52785",
         "name": "Henri Émile Benoît Matisse",
-        "shortname": "Henri Matisse ",
+        "shortname": "Henri Matisse",
         "institue": "Royal Museum of Fine Arts",
         "bio": "Henri Émile Benoît Matisse was a French artist, known for both his use of colour and his fluid and original draughtsmanship. He was a draughtsman, printmaker, and sculptor, but is known primarily as a painter.",
-        "salary": 30000,
+        "price": 300000,
+        "date": "December 31, 1869",
         "img": "https://images.findagrave.com/photos250/photos/2005/209/3790_112265927177.jpg"
     },
     {
@@ -51,7 +55,8 @@
         "shortname": "Edvard Munch",
         "institue": "The Art Institute of Chicago",
         "bio": "Edvard Munch was a Norwegian painter. His best known work, The Scream, has become one of the iconic images of world art. His childhood was overshadowed by illness, bereavement and the dread of inheriting a mental condition that ran in the family.",
-        "salary": 10000,
+        "price": 100000,
+        "date": "December 12, 1863",
         "img": "https://www.edvardmunch.org/images/Edvard-Munch.jpg"
     },
     {
@@ -60,7 +65,8 @@
         "shortname": "Claude Monet",
         "institue": " history painter Charles Gleyre",
         "bio": "Oscar-Claude Monet was a French painter and founder of impressionist painting who is seen as a key precursor to modernism, especially in his attempts to paint nature as he perceived it",
-        "salary": 20000,
+        "price": 200000,
+        "date": "November 14, 1840",
         "img": "https://blog.artsper.com/wp-content/uploads/2018/03/e0f4470e75190786cc4c45d3df59cbf4.jpg"
     },
     {
@@ -69,26 +75,29 @@
         "shortname": "Rene Magritte",
         "institue": "Royal Academy of Fine Arts of Brussels",
         "bio": "René François Ghislain Magritte was a Belgian surrealist artist, who became well known for creating a number of witty and thought-provoking images. Often depicting ordinary objects in an unusual context, his work is known for challenging observers' preconditioned perceptions of reality.",
-        "salary": 60000,
+        "price": 600000,
+        "date": "November 21, 1898",
         "img": "http://dejonckheere-gallery.com/wp-content/uploads/2018/02/rene-magritte_780x460_acf_cropped_780x460_acf_cropped.jpg"
     },
     {
         "id": "52948",
-        "name": "Riley Rudolph Rewington",
-        "shortname": "Riley_Rewington",
+        "name": " Magdalena Frida Carmen Kahlo",
+        "shortname": "frida kahlo",
         "institue": "Roux Academy of Art, Media, and Design",
-        "bio": "A first-year student at the Roux Academy of Art, Media, and Design, Riley is already changing the face of modern art at the university. Riley's exquisite abstract pieces have no intention of ever being understood, but instead beg the viewer to dream, create, pretend, and envision with their mind's eye. Riley will be speaking on the \"Art of Abstract\" during Thursday's schedule",
-        "salary": "75000",
-        "img": " https://meetup-1.herokuapp.com/images/speakers/Riley_Rewington.jpg"
+        "bio": "Magdalena Carmen Frida Kahlo y Calderón was a Mexican painter known for her many portraits, self-portraits, and works inspired by the nature and artifacts of Mexico",
+        "price": 430000,
+        "date": "July 6, 1907",
+        "img": "https://www.theartpostblog.com/wp-content/uploads/2019/04/img-Frida-Kahlo-portrait.jpg"
     },
     {
         "id": "52971",
-        "name": "Xhou Ta",
-        "shortname": "Xhou_Ta",
+        "name": "Yayoi Kusama   ",
+        "shortname": "Yayoi Kusama",
         "institue": "China International Art University",
-        "bio": "A senior at the China International Art University, Xhou has become well-known for his miniature sculptures, often the size of a rice granule, that are displayed by rear projection of microscope images on canvas. Xhou will discuss the art and science behind his incredibly detailed works of art.",
-        "salary": 55000,
-        "img": "https://www.echinesesong.com/wp-content/uploads/2018/12/Ta-De-Jie-Mao-%E5%A5%B9%E7%9A%84%E7%9D%AB%E6%AF%9B-Her-Eyelashes-Lyrics-%E6%AD%8C%E8%A9%9E-With-Pinyin-By-Zhou-Jie-Lun-%E5%91%A8%E6%9D%B0%E4%BC%A6-Jay-Chou.jpg"
+        "bio": "Yayoi Kusama is a Japanese contemporary artist who works primarily in sculpture and installation, but is also active in painting, performance, film, fashion, poetry, fiction, and other arts",
+        "price": 550000,
+        "date": "22 March 1929",
+        "img": "https://uploads7.wikiart.org/00321/images/yayoi-kusama/3-yayoikusama.JPG!Portrait.JPG"
     },
     {
         "id": "53013",
@@ -96,7 +105,8 @@
         "shortname": "Andy Warhol",
         "institue": "Carnegie Mellon University",
         "bio": "Andy Warhol was a successful magazine and ad illustrator who became a leading artist of the 1960s Pop art movements. He ventured into a wide variety of art forms, including performance art, filmmaking, video installations and writing, and controversially blurred the lines between fine art and mainstream aesthetics. Warhol died on February 22, 1987, in New York City.",
-        "salary": 35000,
+        "price": 350000,
+        "date": "August 6, 1928",
         "img": "https://upload.wikimedia.org/wikipedia/commons/4/42/Andy_Warhol_1975.jpg"
     },
     {
@@ -104,8 +114,9 @@
         "name": "Paul Jackson Pollock",
         "shortname": "Jackson Pollock",
         "institue": "Art Students League of New York",
-        "bio": "Paul Jackson Pollock was an American painter and a major figure in the abstract expressionist movement. He was widely noticed for his "drip technique" of pouring or splashing liquid household paint onto a horizontal surface, enabling him to view and paint his canvases from all angles",
-        "salary": 25000,
+        "bio": "Paul Jackson Pollock was an American painter and a major figure in the abstract expressionist movement. He was widely noticed for his drip technique of pouring or splashing liquid household paint onto a horizontal surface, enabling him to view and paint his canvases from all angles",
+        "price": 250000,
+        "date": "January 28, 1912",
         "img": "https://www.kazoart.com/blog/wp-content/uploads/2019/04/25017747_1166662776802589_2603402114461859840_n.jpg"
     }
 ]
