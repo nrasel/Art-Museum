@@ -1,0 +1,16 @@
+.name-container{
+    background-color: rgb(253, 248, 248);
+    box-shadow: 4px 4px 7px gray;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.name-list{
+    list-style: none;
+    background-color: rgb(253, 248, 248);
+    box-shadow: 4px 4px 7px gray;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}

@@ -1,28 +1,38 @@
 import React, { useEffect, useState } from 'react';
+import AddName from '../AddedName/AddName';
 import Artist from '../Artist/Artist';
 import './Artists.css'
 
 const Artists = () => {
     const [artists, setArtists] = useState([])
+    const [added, setAdded] = useState([])
     useEffect(() => {
         fetch('./artist.json')
             .then(res => res.json())
             .then(data => setArtists(data))
     }, [])
+
+    const handleAddToAddName = (person) => {
+        const newPerson = [...added, person]
+        setAdded(newPerson)
+    }
+
     return (
         <div>
             <div className="artists-and-cart-container">
                 <div className="">
-                <div className="artist-container row row-cols-1 row-cols-md-3 g-2">
-                    {
-                        artists.map(artist => <Artist
-                            artist={artist}
-                        />)
-                    }
+                    <div className="artist-container row row-cols-1 row-cols-md-3 g-3">
+                        {
+                            artists.map(artist => <Artist
+                                key={artist.id}
+                                artist={artist}
+                                handleAddToAddName={handleAddToAddName}
+                            />)
+                        }
+                    </div>
                 </div>
-                </div>
-                <div className="cart-container">
-                    <h1>hello</h1>
+                <div className="addName-container">
+                    <AddName added={added} />
                 </div>
             </div>
         </div>

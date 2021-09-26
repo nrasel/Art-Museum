@@ -5,10 +5,22 @@
     margin: auto;
     margin-top: 8px;
 }
+.card{
+    border: none;
+}
 .single-artist{
-    background-color: rgb(250, 251, 251);
-    
+    background-color: rgb(253, 250, 250);
+    box-shadow: 4px 4px 7px gray;
+    text-align: center;
 }
-.full-name{
-    font-size: 24px;
+.single-artist h5 p{
+    color: #333333;
 }
+.style-buy-button{
+    background-color: #ffad33;
+    color: white;
+    border-radius: 2px;
+  }
+  .style-buy-button:hover{
+      color: white;
+  }
